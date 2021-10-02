@@ -1,13 +1,13 @@
 # malaysia-airport-insight
 
 # Data Ingestion
-Run command below in SQL shell to create table and import data into PostgreSQL. <br>
+Run command below in SQL shell to create table and import data into PostgreSQL: <br>
 _(Replace path-to-sql-script with full file path)_
 ```
 \i 'path-to-sql-script/table_setup.sql'
 ```
 
-Details of table_setup.sql
+### Explanation for table_setup.sql
 1. To handle foreign characters (e.g. airport name), character set is changed to 'utf8':
 ```
 SET CLIENT_ENCODING TO 'utf8';
