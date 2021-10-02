@@ -2,7 +2,7 @@
 
 # Data Ingestion
 Run command below in SQL shell to create table and import data into PostgreSQL: <br>
-_(Replace path-to-sql-script with full file path)_
+_Note: Replace path-to-sql-script with full file path where table_setup.sql is stored_
 ```
 \i 'path-to-sql-script/table_setup.sql'
 ```
