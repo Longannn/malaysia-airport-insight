@@ -1,0 +1,41 @@
+iata,icao,name,total_landing_flights,date
+KUL,WMKK,Kuala Lumpur International Airport,138,2021-10-07
+SZB,WMSA,Sultan Abdul Aziz Shah International Airport,62,2021-10-07
+LGK,WMKL,Langkawi International Airport,36,2021-10-07
+PEN,WMKP,Penang International Airport,31,2021-10-07
+KBR,WMKC,Sultan Ismail Petra Airport,23,2021-10-07
+BKI,WBKK,Kota Kinabalu International Airport,22,2021-10-07
+MYY,WBGR,Miri Airport,21,2021-10-07
+KCH,WBGG,Kuching International Airport,15,2021-10-07
+LBU,WBKL,Labuan Airport,9,2021-10-07
+JHB,WMKJ,Senai International Airport,9,2021-10-07
+TGG,WMKN,Sultan Mahmud Airport,9,2021-10-07
+AOR,WMKA,Sultan Abdul Halim Airport,8,2021-10-07
+LWY,WBGW,Lawas Airport,6,2021-10-07
+LMN,WBGJ,Limbang Airport,4,2021-10-07
+SDK,WBKS,Sandakan Airport,4,2021-10-07
+MKM,WBGK,Mukah Airport,4,2021-10-07
+BBN,WBGZ,Bario Airport,3,2021-10-07
+BTU,WBGB,Bintulu Airport,2,2021-10-07
+SBW,WBGS,Sibu Airport,2,2021-10-07
+MUR,WBGM,Marudi Airport,2,2021-10-07
+LDU,WBKD,Lahad Datu Airport,2,2021-10-07
+TWU,WBKW,Tawau Airport,2,2021-10-07
+ODN,WBGI,Long Seridan Airport,1,2021-10-07
+IPH,WMKI,Sultan Azlan Shah Airport,0,2021-10-07
+LGL,WBGF,Long Lellang Airport,0,2021-10-07
+PKG,WMPA,Pulau Pangkor Airport,0,2021-10-07
+KUD,WBKT,Kudat Airport,0,2021-10-07
+TMG,WBKM,Tomanggong Airport,0,2021-10-07
+BKM,WBGQ,Bakalalan Airport,0,2021-10-07
+BLG,WBGC,Belaga Airport,0,2021-10-07
+,WMKF,Simpang Airport,0,2021-10-07
+,WMAP,Kluang Airport,0,2021-10-07
+MZV,WBMU,Mulu Airport,0,2021-10-07
+RDN,WMPR,LTS Pulau Redang Airport,0,2021-10-07
+BWH,WMKB,Butterworth Airport,0,2021-10-07
+TOD,WMBT,Pulau Tioman Airport,0,2021-10-07
+KUA,WMKD,Kuantan Airport,0,2021-10-07
+KTE,WMKE,Kerteh Airport,0,2021-10-07
+MKZ,WMKM,Malacca Airport,0,2021-10-07
+LKH,WBGL,Long Akah Airport,0,2021-10-07
