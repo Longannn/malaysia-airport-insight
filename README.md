@@ -23,6 +23,8 @@ COPY airport FROM PROGRAM 'wget -q -O - https://raw.githubusercontent.com/jpatok
 
 # Data Analysis
 ## Analysis 1 - Number of Airports in Malaysia
+This analysis aims to find out how many airports there are in Malaysia.
+
 To determine how many airports there are in Malaysia, run:
 ```
 SELECT COUNT(Name) AS "NUMBER OF AIRPORTS IN MALAYSIA"
@@ -33,6 +35,8 @@ WHERE UPPER(Country) = 'MALAYSIA';
 ![Analysis 1 Result](/result_screenshot/Output%20(airports%20num%20in%20MY).png)
 
 ## Analysis 2 - Distance between Airports in Malaysia
+This analysis aims to find out what is the distances between all the airports in Malaysia.
+
 ### Prepare Location Information
 1. Install PostGIS to support geographic objects ([guide to install PostGIS](https://postgis.net/workshops/postgis-intro/installation.html)).
 2. To use PostGIS, create a new column, and store longitude and latitude into points, run: <br>
@@ -79,6 +83,8 @@ Partial, total rows = 780
 [PostGIS Documentation](http://postgis.net/workshops/postgis-intro/geography.html)
 
 ## Analysis 3 - Airport Traffic in Malaysia
+This analysis aims to find out the total number of arriving flights at all airports in Malaysia in the **next day** during the point of query to determine the most congested airport in Malaysia.
+
 ### Prepare Airport Code
 1. To get all airports with respective codes in Malaysia, run command below in SQL shell: <br>
 _Note: Replace path-to-store-csv with full file path where output file my_airport.csv will stored_
