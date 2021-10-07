@@ -29,7 +29,7 @@ SELECT COUNT(Name) AS "NUMBER OF AIRPORTS IN MALAYSIA"
 FROM airport
 WHERE UPPER(Country) = 'MALAYSIA';
 ```
-Result: <br>
+### Result
 ![Analysis 1 Result](/result_screenshot/Output%20(airports%20num%20in%20MY).png)
 
 ## Analysis 2 - Distance between Airports in Malaysia
@@ -61,7 +61,8 @@ FROM airport_pair
 ORDER BY Airport_1, Airport_2;
 ```
 
-Result (partial, total rows = 780):
+### Result 
+Partial, total rows = 780
 <p>
   <img src="result_screenshot/Output%20(airports%20distance)%20-partial.png" height="500">
 </p>
@@ -95,5 +96,5 @@ appKey = XXXXXXXXX
 ```
 3. Run ```traffic_tracker.py```
 
-Result:
+### Result
 
