@@ -98,3 +98,5 @@ appKey = XXXXXXXXX
 
 ### Result
 
+# Future Work
+Explore method to speed up multiple API requests (e.g. using asyncio to run asynchronous process).
