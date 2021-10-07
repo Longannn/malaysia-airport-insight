@@ -97,6 +97,12 @@ appKey = XXXXXXXXX
 3. Run ```traffic_tracker.py```
 
 ### Result
+Result stored as CSV file ```my_airport_traffic.csv``` 
+
+KLIA, Sultan Abdul Aziz Shah International Airport and Langkawi International Airport appears to be the most congested airport on 7/10/2021.
+<p>
+  <img src="/result_screenshot/Output%20(airport%20traffics).png" height="500">
+</p>
 
 # Future Work
 Explore method to speed up multiple API requests (e.g. using asyncio to run asynchronous process).
