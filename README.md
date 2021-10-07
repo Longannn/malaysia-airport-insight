@@ -78,4 +78,22 @@ Result (partial, total rows = 780):
 [PostGIS Documentation](http://postgis.net/workshops/postgis-intro/geography.html)
 
 ## Analysis 3 - Airport Traffic in Malaysia
-Coming soon!
+### Prepare Airport Code
+1. To get all airports with respective codes in Malaysia, run command below in SQL shell: <br>
+_Note: Replace path-to-store-csv with full file path where output file my_airport.csv will stored_
+```
+\copy (SELECT IATA, ICAO, Name FROM airport WHERE UPPER(Country)='MALAYSIA') TO 'path-to-store-csv/my_airport.csv' CSV HEADER
+```
+2. Refer to sample output file at ```my_airport.csv```
+
+### Extract Airport Traffic Data
+1. Visit [FLIGHTSTATS](https://developer.flightstats.com) to register an account to access the API.
+2. Store ```appId``` and ```appKey``` in ```.env``` file as bellow:
+```
+appId = XXXXXX
+appKey = XXXXXXXXX
+```
+3. Run ```traffic_tracker.py```
+
+Result:
+
